@@ -8,6 +8,7 @@ function App() {
     setText(event.target.value);
     
   }
+  console.log("h");
   return (
      <div className="App">
       <input type="text" onChange={changeHandler}></input>
